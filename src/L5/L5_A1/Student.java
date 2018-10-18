@@ -23,12 +23,7 @@ public class Student implements Comparable<Student>
 	@Override
 	public int compareTo( Student student )
 	{
-		int flag = Double.compare( this.totalScore, student.totalScore ); //return 0 (if they are numerically equal) or a value less than 0 (if the 1st one is numerically less than the 2nd one) or a value greater than 0 (if the 1st one is numerically greater than the 2nd one)
-		
-		if( flag == 0 )
-			return flag;
-		else
-			return -flag;
+		return -Double.compare( this.totalScore, student.totalScore ); //return 0 (if they are numerically equal) or a value less than 0 (if the 1st one is numerically GREATER than the 2nd one) or a value greater than 0 (if the 1st one is numerically LESS than the 2nd one)
 	} //end method compareTo
 	
 	//override method toString to print the information contained in a Student object in the specified format
