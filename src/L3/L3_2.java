@@ -78,5 +78,5 @@ public class L3_2
 			
 			return -1;
 		} //end if...else
-	} //end method BinarySearch
+	} //end method Search
 } //end class L3_2

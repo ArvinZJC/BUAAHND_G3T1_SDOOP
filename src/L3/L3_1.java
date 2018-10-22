@@ -50,7 +50,7 @@ public class L3_1
 				return middle; //the key is found and the index value is equal to the value of the variable "middle"
 		} //end while
 		
-		return -1;
+		return -1; //the key is not found
 	} //end method BinarySearch
 	
 	/**
