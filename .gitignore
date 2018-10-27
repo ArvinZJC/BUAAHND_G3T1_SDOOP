@@ -1,4 +1,11 @@
-/.settings/
+##ignore unnecessary files to avoid pushing them
+
+#compiled class files
 /bin/
 
+#log files
+*.log
+
+#others
+/.settings/
 /.pydevproject
