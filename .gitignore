@@ -1,11 +1,30 @@
-##ignore unnecessary files to avoid pushing them
+## Ignore unnecessary files to avoid pushing them
 
-#compiled class files
-/bin/
+# Compiled class files
+*.class
 
-#log files
+# Log files
 *.log
 
-#others
-/.settings/
-/.pydevproject
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Eclipse
+.metadata
+bin/
+build/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
