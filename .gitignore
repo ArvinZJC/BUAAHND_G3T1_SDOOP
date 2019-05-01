@@ -1,12 +1,12 @@
-## Ignore unnecessary files to avoid pushing them
+## Ignore unnecessary files to avoid pushing them.
 
-# Compiled class files
+# compiled class files
 *.class
 
-# Log files
+# log files
 *.log
 
-# Package files
+# package files
 *.jar
 *.war
 *.nar
