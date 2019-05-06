@@ -457,7 +457,7 @@ public class MainFrame extends JFrame implements WindowListener, ActionListener,
 			JOptionPane.showMessageDialog(this, "1. A menu bar and the option area are provided for you to\n    undo a step, replay the current level, go to last level, go\n    to next level, select a level, go to Level 1, go to the final\n    level, play or stop BGM, and select BGM.\n2. Press ↑ / ↓ / ← / → to move the tiny man.\n3. To expand the menu Options conveniently, press Alt + O.\n    To expand the menu Help conveniently, press Alt + H.\n    To undo a step conveniently, press Ctrl + Z.", "Help Contents", JOptionPane.PLAIN_MESSAGE);
 		// about Sokoban
 		else if (e.getSource() == menuItemAboutSokoban)
-			JOptionPane.showMessageDialog(this, "Sokoban\n\nVersion: 4.0\nAuthor: Zhao Jichen (SCN: 187115469)\n\n© 2018 Retro Games", "About Sokoban", JOptionPane.PLAIN_MESSAGE);
+			JOptionPane.showMessageDialog(this, "Sokoban\n\nVersion: 4.0\nAuthor: Zhao Jichen (SCN: 187115469)\n\n©2018 Retro Games", "About Sokoban", JOptionPane.PLAIN_MESSAGE);
 	} // end method actionPerformed
 	
 	/**
