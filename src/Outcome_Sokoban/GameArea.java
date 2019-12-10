@@ -45,7 +45,7 @@ public class GameArea extends JPanel implements KeyListener
 	 */
 	private int[][] mapData;
 	/*
-	 * he basis of an original map
+	 * the basis of an original map
 	 * 0 represents the ground outside;
 	 * 1 represents the wall;
 	 * 2 represents the ground inside;
